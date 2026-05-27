@@ -1,0 +1,11 @@
+{
+  "input_file": "Thesis\\supporting_documents\\inputs\\refit\\refit_building02.xes",
+  "train_file": "Thesis\\supporting_documents\\inputs\\refit\\refit_holdout_train.xes",
+  "test_file": "Thesis\\supporting_documents\\inputs\\refit\\refit_holdout_test.xes",
+  "total_traces": 32,
+  "train_traces": 26,
+  "test_traces": 6,
+  "split_strategy": "random",
+  "train_ratio": 0.8,
+  "seed": 42
+}

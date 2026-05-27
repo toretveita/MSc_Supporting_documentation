@@ -1,0 +1,39 @@
+Stats from Reliable Alignments
+
+#Cases replayed	21
+#Synchronous ev.class (log+model)	53
+#Skipped ev.class	0
+#Unobservable ev.class	1 164
+#Inserted ev.class	8
+#Violating synchronous ev.class	0
+Approximate memory used (kb)	7163.722222222223
+Calculation Time (ms)	1246.331537037037
+Exit code of alignment for trace	40.722222222222236
+Model move cost empty trace	0.0
+Move-Log Fitness	0.912257495590829
+Move-Model Fitness	1.0
+Num. States	122969.55555555555
+Number of LPs solved	1.0
+Pre-processing time (ms)	0.03848148148148148
+Queued States	122970.18518518514
+Raw Fitness Cost	0.25925925925925924
+Title of Visualization	Alignments of Anonymous log imported from casas_holdout_test.xes on 1a839670-b1bb-4300-b46b-e2a6f9f0f2a6
+Trace Fitness	0.9468939839310211
+Trace Length	6.074074074074075
+
+
+Alignment Statistics
+Average/case	0,38
+Max.	2
+Min.	0
+Std. Deviation	0,67
+#Cases with value 1.00	4
+
+
+Stats Including Unreliable Alignments
+#Cases replayed	54
+#Synchronous ev.class (log+model)	74
+#Skipped ev.class	0
+#Unobservable ev.class	2 433
+#Inserted ev.class	14
+#Violating synchronous ev.class	0

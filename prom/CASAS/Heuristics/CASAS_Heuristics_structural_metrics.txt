@@ -1,0 +1,158 @@
+Metrics for net Petrinet
+Density metric
+0.007936507936507936
+Details
+|F| = 360
+|P X T| = 22680
+Extended Cardoso metric
+180.0
+Details
+Place pi44 = 1
+Place po44 = 3
+Place pi45 = 1
+Place po45 = 2
+Place pi46 = 1
+Place po46 = 3
+Place pi47 = 1
+Place po47 = 2
+Place pi48 = 1
+Place po48 = 2
+Place pi49 = 1
+Place po49 = 1
+Place pi50 = 1
+Place po50 = 3
+Place pi51 = 1
+Place po51 = 2
+Place pi52 = 1
+Place po52 = 2
+Place pi53 = 1
+Place po53 = 3
+Place pi10 = 1
+Place po10 = 1
+Place pi54 = 1
+Place po54 = 1
+Place pi55 = 1
+Place po55 = 2
+Place pi11 = 1
+Place po11 = 1
+Place pi56 = 1
+Place po56 = 1
+Place pi12 = 1
+Place po12 = 1
+Place pi57 = 1
+Place po57 = 0
+Place pi13 = 1
+Place po13 = 1
+Place pi14 = 1
+Place po14 = 1
+Place pi58 = 1
+Place po58 = 1
+Place pi59 = 1
+Place po59 = 1
+Place pi15 = 1
+Place po15 = 1
+Place pi16 = 1
+Place po16 = 1
+Place pi17 = 1
+Place po17 = 2
+Place pi18 = 1
+Place po18 = 1
+Place pi19 = 1
+Place po19 = 2
+Place pi0 = 1
+Place po0 = 3
+Place pi1 = 1
+Place po1 = 8
+Place pi2 = 1
+Place po2 = 1
+Place pi3 = 1
+Place po3 = 3
+Place pi4 = 1
+Place po4 = 1
+Place pi5 = 1
+Place po5 = 1
+Place pi6 = 1
+Place po6 = 0
+Place pi7 = 1
+Place po7 = 2
+Place pi8 = 1
+Place po8 = 1
+Place pi9 = 1
+Place po9 = 1
+Place pi60 = 1
+Place po60 = 1
+Place pi61 = 1
+Place po61 = 1
+Place pi62 = 1
+Place po62 = 3
+Place pi20 = 1
+Place po20 = 3
+Place pi21 = 1
+Place po21 = 3
+Place pi22 = 1
+Place po22 = 2
+Place pi23 = 1
+Place po23 = 3
+Place pi24 = 1
+Place po24 = 1
+Place pi25 = 1
+Place po25 = 2
+Place pi26 = 1
+Place po26 = 1
+Place pi27 = 1
+Place po27 = 1
+Place pi28 = 1
+Place po28 = 1
+Place pi29 = 1
+Place po29 = 5
+Place pi30 = 1
+Place po30 = 2
+Place pi31 = 1
+Place po31 = 2
+Place pi32 = 1
+Place po32 = 1
+Place pi33 = 1
+Place po33 = 3
+Place pi34 = 1
+Place po34 = 2
+Place pi35 = 1
+Place po35 = 7
+Place pi36 = 1
+Place po36 = 1
+Place pi37 = 1
+Place po37 = 1
+Place pi38 = 1
+Place po38 = 1
+Place pi39 = 1
+Place po39 = 1
+Place pi40 = 1
+Place po40 = 2
+Place pi41 = 1
+Place po41 = 2
+Place pi42 = 1
+Place po42 = 2
+Place pi43 = 1
+Place po43 = 1
+Metric = 180
+Extended Cyclomatic metric
+0.0
+Details
+|E| = 0
+|V| = 1
+p = 1
+Number of arcs
+360.0
+Details
+
+Number of places
+126.0
+Details
+
+Number of transitions
+180.0
+Details
+
+Structuredness metric
+-1.0
+Details
+Net is not a workflow net.

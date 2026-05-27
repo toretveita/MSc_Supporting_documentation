@@ -1,0 +1,79 @@
+Metrics for net 36c0efcc-6bec-4f3c-b88e-909d848461a9
+Density metric
+0.13333333333333333
+Details
+|F| = 24
+|P X T| = 90
+Extended Cardoso metric
+11.0
+Details
+Place source 16 = 1
+Place sink 17 = 0
+Place source 18 = 1
+Place sink 19 = 2
+Place source 21 = 1
+Place sink 22 = 2
+Place source 24 = 1
+Place sink 25 = 2
+Place sink 27 = 1
+Metric = 11
+Extended Cyclomatic metric
+31.0
+Details
+|E| = 42
+|V| = 14
+p = 3
+Number of arcs
+24.0
+Details
+
+Number of places
+9.0
+Details
+
+Number of transitions
+10.0
+Details
+
+Structuredness metric
+275.0
+Details
+CHOICE tau from tree
+Removed transition Bedroom_Air temperature
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 27
+Removed place sink 27
+Added arc from tau from tree to sink 25
+Removed transition Landing_Air temperature
+Sum = 4.0
+Metric = 4.0
+UNSTRUCTURED source 16 -> sink 17
+In transition tau join
+In place source 21
+Out place sink 22
+Out transition tau split
+Out place sink 25
+In place source 18
+In place source 24
+Out place sink 19
+|F| = 20
+|P U T| = 16
+Sum = 275.0
+DiffP = 1
+DiffT = 1
+Added arc from tau split to sink 17
+Removed transition Kitchen_Air temperature
+Removed transition tau join
+Removed place source 21
+Removed place sink 22
+Removed place sink 25
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place source 18
+Removed place source 24
+Removed transition Bathroom_Air temperature
+Removed transition tau from tree
+Removed place sink 19
+Metric = 275.0

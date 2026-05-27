@@ -1,0 +1,12 @@
+#Move log+model	200
+#Move model only	101
+#Move log only	3479
+#Traces	268
+#Unreliable Traces	0
+
+Num. States	16.970149253731343
+Trace Fitness	0.28649414198967
+Move-Model Fitness	0.6287313432835818
+Move-Log Fitness	0.21779704637252734
+Calculation Time (ms)	9.111940298507466
+Raw Fitness Cost	13.358208955223882

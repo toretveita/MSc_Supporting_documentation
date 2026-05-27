@@ -1,0 +1,2473 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns="http://www.xes-standard.org/" xes.version="1.0" xes.features="nested-attributes">
+  <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+  <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+  <extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+  <global scope="trace">
+    <string key="concept:name" value="__INVALID__" />
+  </global>
+  <global scope="event">
+    <string key="concept:name" value="__INVALID__" />
+    <date key="time:timestamp" value="1970-01-01T00:00:00.000+00:00" />
+    <string key="org:resource" value="__INVALID__" />
+  </global>
+  <classifier name="Activity" keys="concept:name" />
+  <trace>
+    <string key="concept:name" value="case_287" />
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-14T11:20:40.591969" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="24.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBArea" />
+      <date key="time:timestamp" value="2015-12-14T11:22:18.683528" />
+      <string key="org:resource" value="BathroomBArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBToilet" />
+      <date key="time:timestamp" value="2015-12-14T11:23:12.382209" />
+      <string key="org:resource" value="BathroomBToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-14T11:23:41.092701" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Temperature" />
+      <date key="time:timestamp" value="2015-12-14T11:24:31.143367" />
+      <string key="org:resource" value="KitchenATemperature" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-14T11:25:52.857511" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAStove" />
+      <date key="time:timestamp" value="2015-12-14T11:25:54.145802" />
+      <string key="org:resource" value="KitchenAStove" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-14T11:25:54.963145" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAStove" />
+      <date key="time:timestamp" value="2015-12-14T11:26:02.181440" />
+      <string key="org:resource" value="KitchenAStove" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAStove" />
+      <date key="time:timestamp" value="2015-12-14T11:26:04.809468" />
+      <string key="org:resource" value="KitchenAStove" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:26:43.874635" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:27:04.518388" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:27:05.642146" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bedroom_A_Door_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-14T11:27:05.647109" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-14T11:28:13.970926" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_OfficeAArea" />
+      <date key="time:timestamp" value="2015-12-14T11:28:19.154700" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-14T11:28:19.359926" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="32" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bathroom_A_Temperature" />
+      <date key="time:timestamp" value="2015-12-14T11:28:57.415726" />
+      <string key="org:resource" value="BathroomATemperature" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="24.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:29:19.370349" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bedroom_A_Door_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-14T11:29:19.375421" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:29:20.250586" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:29:30.613929" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:29:30.739564" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:29:30.894469" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:29:31.088861" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayA" />
+      <date key="time:timestamp" value="2015-12-14T11:30:15.280498" />
+      <string key="org:resource" value="RelayA" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-14T11:30:37.089783" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Door" />
+      <string key="sensor:value" value="OPEN" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-14T11:30:38.136111" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-14T11:30:46.191885" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-14T11:30:51.607626" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="18" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenASink" />
+      <date key="time:timestamp" value="2015-12-14T11:31:04.201456" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-14T11:32:20.125574" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-14T11:32:20.130424" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="08" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-14T11:33:31.352304" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:34:55.209254" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:34:56.502654" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bedroom_A_Door_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-14T11:34:56.507508" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-14T11:35:01.623752" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-14T11:35:02.747611" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-14T11:35:23.931097" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-14T11:35:25.058106" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:35:28.659140" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bedroom_A_Door_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-14T11:35:28.664141" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:35:29.206486" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:35:35.416234" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:35:36.541079" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:36:44.408463" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:36:46.283054" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-14T11:37:50.043113" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-14T11:37:51.168433" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:37:56.212733" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-14T11:37:57.340594" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:38:39.329163" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-14T11:38:40.436862" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_292" />
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAArea" />
+      <date key="time:timestamp" value="2015-12-14T16:07:15.997819" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-14T16:17:14.479908" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="11" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_307" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T06:51:37.824054" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T06:55:53.905276" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="18" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T07:06:37.725713" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="46" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-15T07:10:21.842690" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-15T07:19:02.274152" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T07:25:52.772412" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="51" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T07:33:33.394447" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="16" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_308" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T07:41:47.478219" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-15T07:42:22.497003" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T07:44:22.835891" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-15T08:04:52.482964" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="70" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-15T08:11:47.305697" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="11" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T08:19:55.179568" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="59" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T08:21:54.048774" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="63" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-15T08:23:33.056896" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="13" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-15T08:24:22.513360" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="08" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-15T08:27:49.327956" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="78" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T08:29:52.103149" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="63" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T08:33:43.804431" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="38" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_311" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T10:43:32.140737" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="20" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-15T11:33:31.780374" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="13" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_312" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T11:53:31.679105" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-15T12:03:31.602073" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T12:06:10.383517" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="37" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T12:16:05.660537" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="50" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T12:19:30.908653" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="36" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-15T12:22:54.322592" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="50" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bathroom_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-15T12:30:18.510494" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_320" />
+    <event>
+      <string key="concept:name" value="Bathroom_A_Temperature" />
+      <date key="time:timestamp" value="2015-12-15T20:12:22.944834" />
+      <string key="org:resource" value="BathroomATemperature" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_321" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-15T21:33:42.472812" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-15T21:33:43.603909" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_326" />
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-16T01:42:49.381329" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_341" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-16T16:41:43.676737" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-16T17:25:29.926059" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_347" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:51:49.877130" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:51:50.999803" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:51:54.189153" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:51:55.315612" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:52:08.437434" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:52:10.309011" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:52:16.123461" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T22:52:18.559401" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T23:04:03.481451" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-16T23:04:04.603352" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_355" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-17T07:06:15.177340" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="25" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-17T07:11:37.256818" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="25" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomAArea" />
+      <date key="time:timestamp" value="2015-12-17T07:17:45.983747" />
+      <string key="org:resource" value="BedroomAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomAArea" />
+      <date key="time:timestamp" value="2015-12-17T07:17:47.106909" />
+      <string key="org:resource" value="BedroomAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-17T07:21:33.406579" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="40" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-17T07:21:33.819706" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="54" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_358" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-17T09:41:29.563862" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-17T09:51:29.502262" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-17T10:03:19.782069" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="28.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-17T10:22:50.883280" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="69" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_361" />
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-17T12:45:38.065174" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-17T12:45:39.187292" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-17T12:52:49.736218" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="39" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-17T13:24:45.884052" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_363" />
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-17T15:07:52.941565" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_368" />
+    <event>
+      <string key="concept:name" value="Motion_OfficeAArea" />
+      <date key="time:timestamp" value="2015-12-17T19:42:50.853552" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_OfficeAArea" />
+      <date key="time:timestamp" value="2015-12-17T19:42:51.974164" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_374" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-18T02:07:47.663836" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-18T02:07:48.785279" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-18T02:11:37.629211" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-18T02:11:38.750385" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_378" />
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-18T06:06:19.792368" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_380" />
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-18T07:41:04.434226" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-18T07:41:05.558573" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-18T08:06:55.081247" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="72" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-18T08:17:37.091836" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-18T08:19:50.869837" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-18T08:19:51.991178" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-18T08:20:55.200633" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="20" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-18T08:21:21.426934" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-18T08:27:37.019342" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-18T08:29:41.053530" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="72" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_392" />
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-18T19:49:13.205729" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomADoor" />
+      <date key="time:timestamp" value="2015-12-18T19:49:25.091933" />
+      <string key="org:resource" value="BedroomADoor" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-18T19:49:33.563719" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-18T19:49:40.010652" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayA" />
+      <date key="time:timestamp" value="2015-12-18T19:49:40.083343" />
+      <string key="org:resource" value="RelayA" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-18T19:49:40.190584" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-18T19:50:32.420335" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAStove" />
+      <date key="time:timestamp" value="2015-12-18T19:50:55.428566" />
+      <string key="org:resource" value="KitchenAStove" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomAArea" />
+      <date key="time:timestamp" value="2015-12-18T19:51:30.086282" />
+      <string key="org:resource" value="BedroomAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-18T19:51:44.089842" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomASink" />
+      <date key="time:timestamp" value="2015-12-18T19:52:31.102186" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-18T19:53:29.278101" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-18T19:54:00.406177" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-18T19:56:36.321242" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayA" />
+      <date key="time:timestamp" value="2015-12-18T19:58:20.537760" />
+      <string key="org:resource" value="RelayA" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayB" />
+      <date key="time:timestamp" value="2015-12-18T20:06:09.039813" />
+      <string key="org:resource" value="RelayB" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-18T20:10:25.729875" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Door" />
+      <string key="sensor:value" value="OPEN" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-18T20:16:04.221664" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenASink" />
+      <date key="time:timestamp" value="2015-12-18T20:16:15.453548" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-18T20:17:22.480165" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBArea" />
+      <date key="time:timestamp" value="2015-12-18T20:17:25.270023" />
+      <string key="org:resource" value="BathroomBArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAArea" />
+      <date key="time:timestamp" value="2015-12-18T20:17:30.919790" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_OfficeAArea" />
+      <date key="time:timestamp" value="2015-12-18T20:17:40.157510" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBToilet" />
+      <date key="time:timestamp" value="2015-12-18T20:19:21.951605" />
+      <string key="org:resource" value="BathroomBToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-18T20:38:14.630568" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="28.0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_404" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-19T07:46:49.549201" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-19T07:51:58.762355" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBSink" />
+      <date key="time:timestamp" value="2015-12-19T07:51:59.887171" />
+      <string key="org:resource" value="BathroomBSink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T07:55:22.403464" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="43" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T07:58:45.739506" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="46" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-19T08:01:01.738636" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="72" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T08:04:25.125402" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="58" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-19T08:14:29.794475" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="70" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-19T08:20:13.818030" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T08:24:00.628171" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="56" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-19T08:28:01.564052" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-19T08:30:13.757992" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="09" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-19T08:37:49.144974" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="73" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T08:39:06.041542" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="58" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-19T08:39:09.926393" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="64" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_433" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-20T13:00:40.355037" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="37" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-20T13:22:11.208467" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-20T13:22:12.334963" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-20T13:38:13.703346" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_434" />
+    <event>
+      <string key="concept:name" value="Bathroom_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-20T13:40:58.364093" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="12" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-20T13:58:13.527004" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="12" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-20T14:00:35.025044" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="38" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-20T14:26:48.649280" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_435" />
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-20T15:31:49.152389" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_LivingRoomAChair" />
+      <date key="time:timestamp" value="2015-12-20T15:31:50.273490" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_442" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-20T22:11:04.223287" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-20T22:11:05.356398" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_454" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-21T09:39:26.498317" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="76" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-21T09:39:58.365060" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="62" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-21T09:40:33.046530" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="76" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-21T09:40:57.425103" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="61" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-21T09:41:38.552820" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="65" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-21T09:42:51.786304" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="76" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-21T09:46:38.544687" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="80" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-21T09:54:49.821021" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="60" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-21T09:55:41.016499" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="13" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-21T09:57:01.051656" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="74" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-21T10:05:40.948182" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="16" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-21T10:27:00.896943" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="69" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_474" />
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-22T06:06:43.322721" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_475" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-22T06:58:34.015510" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="23" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-22T07:08:01.049221" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="27" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-22T07:15:03.904020" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="51" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-22T07:27:51.562024" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="48" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_478" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-22T09:45:32.454658" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-22T09:55:32.395045" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-22T10:27:05.232757" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="68" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_482" />
+    <event>
+      <string key="concept:name" value="Bathroom_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-22T13:41:23.458693" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="13" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-22T13:41:24.025094" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-22T13:55:44.762496" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-22T14:00:05.003144" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-22T14:01:23.879626" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="10" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-22T14:03:16.244632" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="39" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-22T14:12:45.033550" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-22T14:12:46.161128" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-22T14:16:33.931561" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="28.0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_503" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-23T10:50:08.121330" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="68" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-23T11:05:23.357403" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-23T11:32:28.997205" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_507" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-23T15:10:06.422424" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="35" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_524" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-24T07:52:20.932991" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="18" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-24T07:55:15.875242" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-24T07:56:14.868951" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="70" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-24T08:08:38.989579" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-24T08:19:14.906172" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_525" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-24T08:58:38.637382" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bathroom_B_Temperature" />
+      <date key="time:timestamp" value="2015-12-24T09:29:08.272430" />
+      <string key="org:resource" value="BathroomBTemperature" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="23.0" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_528" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-24T11:42:19.413914" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomASink" />
+      <date key="time:timestamp" value="2015-12-24T12:05:55.395468" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomASink" />
+      <date key="time:timestamp" value="2015-12-24T12:05:56.527632" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bathroom_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-24T12:35:54.653748" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="16" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-24T12:39:07.389971" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_536" />
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-24T20:09:58.161716" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenADiningChair" />
+      <date key="time:timestamp" value="2015-12-24T20:09:59.285367" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_548" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-25T07:42:11.481193" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Bathroom_B_Temperature" />
+      <date key="time:timestamp" value="2015-12-25T07:47:51.589481" />
+      <string key="org:resource" value="BathroomBTemperature" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="23.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-25T08:00:05.441792" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-25T08:05:07.188860" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-25T08:19:43.722244" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-25T08:29:19.189014" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="72" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_565" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomBArea" />
+      <date key="time:timestamp" value="2015-12-26T01:19:15.832757" />
+      <string key="org:resource" value="BathroomBArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomBArea" />
+      <date key="time:timestamp" value="2015-12-26T01:19:16.958937" />
+      <string key="org:resource" value="BathroomBArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_580" />
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-26T16:23:21.947057" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="26.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Temperature_RelayC" />
+      <date key="time:timestamp" value="2015-12-26T16:28:34.245141" />
+      <string key="org:resource" value="RelayC" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="27.0" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-26T16:29:25.762486" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-26T16:29:27.076364" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_581" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-26T16:49:46.747077" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="12" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-26T17:31:49.217319" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="12" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_586" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T21:54:34.487332" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T21:54:35.605737" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:02:22.082583" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:02:23.185273" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:10:02.150135" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:10:03.271997" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:10:43.781861" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:10:44.968158" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:36:13.594029" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-26T22:36:14.720680" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_589" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T00:40:42.931325" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T00:40:44.055896" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T00:49:24.724066" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T00:49:25.815907" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T01:29:20.663356" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-27T01:29:21.782859" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_597" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T08:41:29.211455" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="47" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T09:06:37.619951" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="44" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-27T09:14:19.769155" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="29" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T09:23:55.302234" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="44" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-27T09:24:21.425565" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="72" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T09:26:25.205662" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="56" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-27T09:28:33.582405" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-27T09:32:33.595639" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="20" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-27T09:34:46.281409" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="16" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-27T09:38:24.283413" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="70" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T09:38:44.873697" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="54" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T09:39:01.620595" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="60" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_598" />
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-27T09:42:33.534466" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="07" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-27T09:44:46.219286" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="04" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-27T10:08:39.027384" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="39" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-27T10:16:02.443645" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="54" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-27T10:32:33.296324" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_BRIGHT" />
+      <date key="time:timestamp" value="2015-12-27T10:35:57.568095" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="71" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_617" />
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-28T04:49:18.478948" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BedroomABed" />
+      <date key="time:timestamp" value="2015-12-28T04:49:19.595350" />
+      <string key="org:resource" value="BedroomABed" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-28T04:54:25.605305" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="24.5" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_619" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-28T07:01:19.525186" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-28T07:14:59.682090" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="23" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-28T07:20:34.401170" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="41" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-28T07:34:59.535888" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="40" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_631" />
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-28T18:53:23.190304" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Entryway" />
+      <date key="time:timestamp" value="2015-12-28T18:53:24.312474" />
+      <string key="org:resource" value="MainEntryway" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_643" />
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-29T07:00:10.117703" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="21" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-29T07:04:19.124690" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Area_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-29T07:10:04.404103" />
+      <string key="org:resource" value="LivingRoomAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="50" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_MEDIUM" />
+      <date key="time:timestamp" value="2015-12-29T07:18:18.997935" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="42" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-29T07:22:15.368093" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="17" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-29T07:24:29.755611" />
+      <string key="org:resource" value="KitchenASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-29T07:35:30.097925" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="16" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_656" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-29T20:03:59.052570" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-29T20:04:00.168386" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_662" />
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-30T01:41:45.796588" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T02:28:38.383820" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T02:28:39.511488" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T02:33:54.316602" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T02:33:55.413834" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_680" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T20:00:36.227972" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-30T20:00:37.345190" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_693" />
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T08:44:24.598304" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T08:44:25.733066" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T08:55:21.905467" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T08:55:23.023480" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Kitchen_A_Dining_Chair_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-31T09:13:08.951790" />
+      <string key="org:resource" value="KitchenADiningChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="14" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_696" />
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-31T11:48:38.151988" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="15" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T11:49:34.012693" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T11:49:35.139112" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Office_A_Area_Light_DARK" />
+      <date key="time:timestamp" value="2015-12-31T11:58:38.088804" />
+      <string key="org:resource" value="OfficeAArea" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="13" />
+    </event>
+    <event>
+      <string key="concept:name" value="Main_Door" />
+      <date key="time:timestamp" value="2015-12-31T12:04:21.894273" />
+      <string key="org:resource" value="MainDoor" />
+      <string key="sensor:type" value="Control4-Temperature" />
+      <string key="sensor:value" value="25.5" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:05:03.527775" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:05:04.656162" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:06:23.021747" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:06:24.144778" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:07:35.574305" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:07:36.700870" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:32:50.591996" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T12:32:51.714601" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="case_697" />
+    <event>
+      <string key="concept:name" value="Bathroom_A_Sink_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-31T12:43:26.697654" />
+      <string key="org:resource" value="BathroomASink" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="21" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T13:01:33.517827" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_BathroomAToilet" />
+      <date key="time:timestamp" value="2015-12-31T13:01:34.637291" />
+      <string key="org:resource" value="BathroomAToilet" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+    <event>
+      <string key="concept:name" value="Living_Room_A_Chair_Light_DIM" />
+      <date key="time:timestamp" value="2015-12-31T13:04:55.077338" />
+      <string key="org:resource" value="LivingRoomAChair" />
+      <string key="sensor:type" value="Control4-LightSensor" />
+      <string key="sensor:value" value="37" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-31T13:32:36.074703" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="ON" />
+    </event>
+    <event>
+      <string key="concept:name" value="Motion_KitchenAArea" />
+      <date key="time:timestamp" value="2015-12-31T13:32:37.200992" />
+      <string key="org:resource" value="KitchenAArea" />
+      <string key="sensor:type" value="Control4-Motion" />
+      <string key="sensor:value" value="OFF" />
+    </event>
+  </trace>
+</log>

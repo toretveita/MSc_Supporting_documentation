@@ -1,0 +1,37 @@
+Stats form reliable alignments
+
+#Cases replayed	32
+#Synchronous ev.class (log+model)	8,000
+#Skipped ev.class	0
+#Unobservable ev.class	8,832
+#Inserted ev.class	0
+#Violating synchronous ev.class	0
+Approximate memory used (kb)	207.71875000000003
+Calculation Time (ms)	204.65740625000004
+Exit code of alignment for trace	1.0
+Model move cost empty trace	4.0
+Move-Log Fitness	1.0
+Move-Model Fitness	1.0
+Num. States	4667.875
+Number of LPs solved	2.5625
+Pre-processing time (ms)	0.6445937500000001
+Queued States	6457.500000000001
+Raw Fitness Cost	0.0
+Title of Visualization	Alignments of REFIT Smart Home - Building02 on a67a5e24-c0b6-4402-baf6-43b1eaae9be0
+Trace Fitness	1.0
+Trace Length	250.0
+
+Alignment statistics
+Average/case	0.00
+Max.	0.00
+Min.	0
+Std. Deviation	0.00
+#Cases with value 1.00	0
+
+Stats including unreliable alignments
+#Cases replayed	32
+#Synchronous ev.class (log+model)	8,000
+#Skipped ev.class	0
+#Unobservable ev.class	8,832
+#Inserted ev.class	0
+#Violating synchronous ev.class	0

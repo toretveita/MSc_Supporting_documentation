@@ -1,0 +1,11 @@
+{
+  "input_file": "Thesis\\supporting_documents\\inputs\\casas\\shib010.xes",
+  "train_file": "Thesis\\supporting_documents\\inputs\\casas\\casas_holdout_train.xes",
+  "test_file": "Thesis\\supporting_documents\\inputs\\casas\\casas_holdout_test.xes",
+  "total_traces": 268,
+  "train_traces": 214,
+  "test_traces": 54,
+  "split_strategy": "random",
+  "train_ratio": 0.8,
+  "seed": 42
+}

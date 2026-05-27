@@ -1,0 +1,16 @@
+run_id: PROM-CASAS-H-default
+artifact_type: prom
+dataset: CASAS
+stage: discovery_conformance
+algorithm: Heuristics Miner (converted Heuristics Net → Petri Net)
+configuration: default
+tool: ProM
+run_date: 2026-04-07
+input_log_reference: supporting_documents/inputs/casas/shib010.xes
+model_file: supporting_documents/prom/CASAS/Heuristics/CASAS_Heuristics.pnml
+conformance_export: supporting_documents/prom/CASAS/Heuristics/CASAS_Heuristics_conformance.txt
+structural_metrics: supporting_documents/prom/CASAS/Heuristics/CASAS_Heuristics_structural_metrics.txt
+model_visualization: supporting_documents/prom/CASAS/Heuristics/CASAS_Heuristics_view.svg
+initial_marking: 1 token in n33, 1 token in n65
+final_marking: 1 token in n34 (accepting alternative end place)
+notes: Heuristics Miner discovered a Heuristics Net on CASAS log; converted to Petri Net for PN-based alignment and conformance analysis. Net structure not a workflow net (multiple source/sink places). Conformance computed with accepting markings on alternative sink places. Move-Log Fitness 0.257 vs Move-Model Fitness 0.188 reflects typical HM trade-off: looser model acceptance higher log replay, stricter model behavior.

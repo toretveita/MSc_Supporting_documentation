@@ -1,0 +1,29 @@
+Stats from Reliable Alignments
+
+#Cases replayed	268
+#Synchronous ev.class (log+model)	2,391
+#Skipped ev.class	1,746
+#Unobservable ev.class	4,137
+#Inserted ev.class	1,288
+#Violating synchronous ev.class	0
+Calculation Time (ms)	94.47388059701495
+Move-Log Fitness	0.2570073790189009
+Move-Model Fitness	0.18790915307324121
+Num. States	815.1343283582084
+Raw Fitness Cost	11.320895522388058
+Trace Fitness	0.15525766414804432
+
+Alignment Statistics
+Average/case	11.32
+Max.	269
+Min.	3
+Std. Deviation	18.39
+#Cases with value 1.00	0
+
+Stats Including Unreliable Alignments
+#Cases replayed	268
+#Synchronous ev.class (log+model)	2,391
+#Skipped ev.class	1,746
+#Unobservable ev.class	4,137
+#Inserted ev.class	1,288
+#Violating synchronous ev.class	0

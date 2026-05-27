@@ -1,0 +1,770 @@
+Metrics for net 1a839670-b1bb-4300-b46b-e2a6f9f0f2a6
+Density metric
+0.008553351038900172
+Details
+|F| = 438
+|P X T| = 25604
+Extended Cardoso metric
+180.0
+Details
+Place source 79 = 1
+Place sink 80 = 0
+Place source 81 = 1
+Place sink 82 = 1
+Place source 83 = 2
+Place sink 84 = 1
+Place middle 85 = 2
+Place replacement source 86 = 1
+Place source 87 = 2
+Place sink 88 = 1
+Place middle 89 = 2
+Place replacement source 90 = 1
+Place source 91 = 2
+Place sink 92 = 1
+Place middle 93 = 2
+Place replacement source 94 = 1
+Place source 95 = 1
+Place sink 96 = 1
+Place source 97 = 2
+Place sink 98 = 1
+Place middle 99 = 2
+Place replacement source 100 = 1
+Place source 101 = 1
+Place sink 102 = 1
+Place source 103 = 2
+Place sink 104 = 1
+Place middle 105 = 2
+Place replacement source 106 = 1
+Place source 107 = 1
+Place sink 108 = 1
+Place source 109 = 1
+Place sink 110 = 1
+Place source 111 = 1
+Place sink 112 = 1
+Place source 113 = 2
+Place sink 114 = 1
+Place middle 115 = 2
+Place replacement source 116 = 1
+Place source 117 = 1
+Place sink 118 = 1
+Place source 119 = 1
+Place sink 120 = 1
+Place source 121 = 2
+Place sink 122 = 1
+Place middle 123 = 2
+Place replacement source 124 = 1
+Place source 125 = 1
+Place sink 126 = 1
+Place source 127 = 1
+Place sink 128 = 1
+Place source 129 = 1
+Place sink 130 = 1
+Place source 131 = 2
+Place sink 132 = 1
+Place middle 133 = 2
+Place replacement source 134 = 1
+Place source 135 = 1
+Place sink 136 = 1
+Place source 137 = 2
+Place sink 138 = 1
+Place middle 139 = 2
+Place replacement source 140 = 1
+Place source 141 = 1
+Place sink 142 = 1
+Place source 143 = 1
+Place sink 144 = 1
+Place source 145 = 1
+Place sink 146 = 1
+Place source 147 = 1
+Place sink 148 = 1
+Place source 149 = 1
+Place sink 150 = 1
+Place source 151 = 1
+Place sink 152 = 1
+Place sink 153 = 1
+Place source 154 = 1
+Place sink 155 = 1
+Place source 156 = 2
+Place sink 157 = 1
+Place middle 158 = 2
+Place replacement source 159 = 1
+Place source 160 = 2
+Place sink 161 = 1
+Place middle 162 = 2
+Place replacement source 163 = 1
+Place source 164 = 1
+Place sink 165 = 1
+Place source 166 = 1
+Place sink 167 = 1
+Place source 168 = 1
+Place sink 169 = 1
+Place source 170 = 1
+Place sink 171 = 1
+Place source 172 = 2
+Place sink 173 = 1
+Place middle 174 = 2
+Place replacement source 175 = 1
+Place sink 177 = 1
+Place sink 178 = 1
+Place source 179 = 1
+Place sink 180 = 1
+Place source 181 = 1
+Place sink 182 = 1
+Place sink 184 = 1
+Place sink 185 = 1
+Place source 186 = 1
+Place sink 187 = 1
+Place source 188 = 3
+Place sink 189 = 1
+Place sink 190 = 1
+Place sink 191 = 1
+Place sink 192 = 2
+Place sink 193 = 1
+Place sink 194 = 1
+Place sink 195 = 1
+Place sink 196 = 1
+Place sink 197 = 2
+Place source 198 = 1
+Place sink 199 = 1
+Place source 200 = 1
+Place sink 201 = 1
+Place source 202 = 1
+Place sink 203 = 1
+Place sink 204 = 1
+Place sink 205 = 1
+Place sink 206 = 1
+Place source 207 = 1
+Place sink 208 = 1
+Place source 209 = 1
+Place sink 210 = 1
+Place source 211 = 2
+Place sink 212 = 1
+Place source 213 = 1
+Place sink 214 = 1
+Place source 215 = 1
+Place sink 216 = 1
+Place source 217 = 2
+Place sink 218 = 1
+Place middle 219 = 2
+Place replacement source 220 = 1
+Place source 221 = 1
+Place sink 222 = 1
+Place source 223 = 1
+Place sink 224 = 1
+Place source 225 = 2
+Place sink 226 = 1
+Place middle 227 = 2
+Place replacement source 228 = 1
+Metric = 180
+Extended Cyclomatic metric
+10045.0
+Details
+|E| = 10047
+|V| = 3308
+p = 3306
+Number of arcs
+438.0
+Details
+
+Number of places
+148.0
+Details
+
+Number of transitions
+173.0
+Details
+
+Structuredness metric
+6108.0
+Details
+SEQUENCE sink 194
+Removed place sink 194
+Added arc from Motion_BathroomAArea to sink 195
+Removed transition Bathroom_A_Toilet_Light_DARK
+Sum = 2.0
+Metric = 2.0
+SEQUENCE sink 195
+Removed place sink 195
+Added arc from Motion_BathroomAArea to sink 196
+Removed transition Bathroom_B_Sink_Light_DARK
+Sum = 3.0
+Metric = 3.0
+SEQUENCE sink 196
+Removed place sink 196
+Added arc from Motion_BathroomAArea to sink 193
+Removed transition Bedroom_A_Bed_Light_DARK
+Sum = 4.0
+Metric = 4.0
+SEQUENCE sink 204
+Removed place sink 204
+Added arc from Bathroom_B_Toilet_Light_DIM to sink 191
+Removed transition Office_A_Chair_Light_DIM
+Sum = 2.0
+Metric = 2.0
+CHOICE tau from tree
+Removed transition Motion_BathroomBSink
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_A_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_B_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Office_A_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Dining_Chair_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Motion_OfficeAChair
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Main_Entryway_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Sink_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Motion_KitchenASink
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_B_Area_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Living_Room_A_Area_Light_MEDIUM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_A_Temperature
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Motion_BathroomASink
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_A_Sink_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Temperature_RelayA
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Temperature_RelayB
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Temperature_RelayC
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Stove_Light_DARK
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 153
+Removed place sink 153
+Added arc from tau from tree to source 154
+Added arc from tau from tree to source 156
+Added arc from tau from tree to source 160
+Added arc from tau from tree to source 164
+Added arc from tau from tree to source 166
+Added arc from tau from tree to source 168
+Added arc from tau from tree to source 170
+Added arc from tau from tree to source 172
+Added arc from tau from tree to source 179
+Added arc from tau from tree to source 181
+Added arc from tau from tree to source 186
+Added arc from tau from tree to source 188
+Removed transition tau split
+Sum = 4.0
+Metric = 4.0
+CHOICE tau from tree
+Removed transition Motion_LivingRoomAChair
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Office_A_Chair_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Living_Room_A_Chair_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_B_Toilet_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bedroom_A_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Temperature
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Office_A_Area_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_A_Sink_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Motion_BathroomAArea
+Sum = 5.0
+Metric = 7.5
+SEQUENCE sink 193
+Removed place sink 193
+Added arc from tau from tree to source 198
+Added arc from tau from tree to source 200
+Added arc from tau from tree to source 202
+Removed transition tau split
+Sum = 8.5
+Metric = 8.5
+CHOICE tau from tree
+Removed transition Motion_BathroomBToilet
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bedroom_A_Area_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Main_Door
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Living_Room_A_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 205
+Removed place sink 205
+Added arc from tau from tree to sink 206
+Removed transition tau from tree
+Sum = 6.0
+Metric = 6.0
+SEQUENCE sink 206
+Removed place sink 206
+Added arc from tau from tree to source 207
+Added arc from tau from tree to source 209
+Added arc from tau from tree to source 211
+Added arc from tau from tree to source 221
+Added arc from tau from tree to source 223
+Added arc from tau from tree to source 225
+Removed transition tau split
+Sum = 7.0
+Metric = 7.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Sink_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bathroom_B_Temperature
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Dining_Chair_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Kitchen_A_Area_Light_DIM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Living_Room_A_Chair_Light_MEDIUM
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Living_Room_A_Area_Light_DARK
+Sum = 2.0
+Metric = 3.0
+CHOICE tau from tree
+Removed transition Bedroom_A_Door_Light_DARK
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 185
+Removed place sink 185
+Added arc from tau join to sink 184
+Removed transition tau from tree
+Sum = 4.0
+Metric = 4.0
+CHOICE tau from tree
+Removed transition Main_Entryway_Light_DARK
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 178
+Removed place sink 178
+Added arc from tau join to sink 177
+Removed transition tau from tree
+Sum = 4.0
+Metric = 4.0
+MARKED GRAPH tau from tree -> tau join
+Sum = 33.0
+DiffT = 1
+Added arc from tau from tree to sink 197
+Removed place source 198
+Removed place sink 203
+Removed place sink 199
+Removed place source 200
+Removed place source 202
+Removed transition Motion_KitchenADiningChair
+Removed transition tau from tree
+Removed place sink 201
+Removed transition tau join
+Removed transition tau from tree
+Metric = 33.0
+STATE MACHINE source 83 -> sink 84
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 84
+Removed place middle 85
+Removed place replacement source 86
+Removed transition Motion_BedroomABed
+Removed transition tau start
+Removed transition tau from tree
+Removed transition tau from tree
+Metric = 10.0
+STATE MACHINE source 87 -> sink 88
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 88
+Removed transition Bathroom_A_Area_Light_DARK
+Removed transition tau start
+Removed place replacement source 90
+Removed transition tau from tree
+Removed place middle 89
+Removed transition tau from tree
+Metric = 10.0
+STATE MACHINE source 91 -> sink 92
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 92
+Removed place replacement source 94
+Removed transition Motion_KitchenAStove
+Removed transition tau from tree
+Removed place middle 93
+Removed transition tau from tree
+Removed transition tau start
+Metric = 10.0
+STATE MACHINE source 97 -> sink 98
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 98
+Removed transition tau from tree
+Removed transition Motion_BathroomBArea
+Removed transition tau from tree
+Removed place replacement source 100
+Removed place middle 99
+Removed transition tau start
+Metric = 10.0
+STATE MACHINE source 103 -> sink 104
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 104
+Removed place replacement source 106
+Removed place middle 105
+Removed transition Motion_OfficeAArea
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau start
+Metric = 10.0
+STATE MACHINE source 113 -> sink 114
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 114
+Removed place replacement source 116
+Removed transition tau from tree
+Removed transition Main_Entryway
+Removed transition tau start
+Removed transition tau from tree
+Removed place middle 115
+Metric = 10.0
+STATE MACHINE source 121 -> sink 122
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 122
+Removed place replacement source 124
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place middle 123
+Removed transition Motion_BathroomAToilet
+Removed transition tau start
+Metric = 10.0
+STATE MACHINE source 131 -> sink 132
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 132
+Removed transition Motion_LivingRoomAArea
+Removed place replacement source 134
+Removed place middle 133
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau start
+Metric = 10.0
+STATE MACHINE source 137 -> sink 138
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 138
+Removed transition tau start
+Removed transition Motion_KitchenAArea
+Removed place middle 139
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place replacement source 140
+Metric = 10.0
+STATE MACHINE source 156 -> sink 157
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 157
+Removed transition tau start
+Removed place middle 158
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place replacement source 159
+Removed transition Motion_BedroomAArea
+Metric = 10.0
+STATE MACHINE source 160 -> sink 161
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 161
+Removed transition Motion_BedroomADoor
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau start
+Removed place replacement source 163
+Removed place middle 162
+Metric = 10.0
+STATE MACHINE source 172 -> sink 173
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 173
+Removed transition tau start
+Removed place middle 174
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition Bathroom_A_Area_Light_BRIGHT
+Removed place replacement source 175
+Metric = 10.0
+STATE MACHINE source 217 -> sink 218
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 218
+Removed place replacement source 220
+Removed transition tau from tree
+Removed transition Living_Room_A_Chair_Light_BRIGHT
+Removed place middle 219
+Removed transition tau from tree
+Removed transition tau start
+Metric = 10.0
+MARKED GRAPH tau split -> tau join
+Sum = 32.0
+DiffT = 1
+Added arc from tau split to sink 212
+Removed place source 213
+Removed place sink 218
+Removed transition tau from tree
+Removed place sink 214
+Removed place source 217
+Removed transition Kitchen_A_Area_Light_DARK
+Removed transition tau join
+Removed transition tau from tree
+Removed place source 215
+Removed place sink 216
+Metric = 32.0
+CHOICE tau from tree
+Removed transition tau split
+Sum = 33.0
+Metric = 49.5
+STATE MACHINE source 225 -> sink 226
+Sum = 10.0
+DiffP = 1
+Added arc from tau from tree to sink 226
+Removed transition tau start
+Removed place middle 227
+Removed transition tau from tree
+Removed place replacement source 228
+Removed transition Living_Room_A_Area_Light_BRIGHT
+Removed transition tau from tree
+Metric = 10.0
+MARKED GRAPH tau from tree -> tau join
+Sum = 159.0
+DiffT = 1
+Added arc from tau from tree to sink 190
+Removed place sink 212
+Removed place source 209
+Removed place sink 226
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 210
+Removed place source 223
+Removed place source 225
+Removed place source 211
+Removed place sink 222
+Removed transition tau join
+Removed place source 207
+Removed place sink 208
+Removed place sink 224
+Removed transition tau from tree
+Removed place source 221
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Metric = 159.0
+STATE MACHINE source 188 -> sink 189
+Sum = 404.0
+DiffP = 2
+Added arc from tau from tree to sink 189
+Removed transition Bathroom_B_Toilet_Light_DIM
+Removed place sink 192
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 191
+Removed transition tau from tree
+Removed place sink 197
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition Office_A_Area_Light_MEDIUM
+Removed transition Living_Room_A_Chair_Light_DARK
+Removed place sink 190
+Metric = 808.0
+MARKED GRAPH tau split -> tau join
+Sum = 2036.0
+DiffT = 3
+Added arc from tau split to sink 80
+Removed place source 97
+Removed place source 154
+Removed transition tau from tree
+Removed place source 83
+Removed place source 121
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 167
+Removed place sink 126
+Removed place sink 92
+Removed transition tau from tree
+Removed place sink 98
+Removed place sink 104
+Removed transition tau from tree
+Removed place sink 108
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 128
+Removed transition tau join
+Removed place source 119
+Removed place source 137
+Removed place source 113
+Removed transition tau from tree
+Removed place sink 150
+Removed place source 186
+Removed place source 188
+Removed transition tau from tree
+Removed place sink 155
+Removed transition tau join
+Removed place sink 112
+Removed transition tau from tree
+Removed place sink 152
+Removed place source 111
+Removed transition tau from tree
+Removed place source 117
+Removed transition tau from tree
+Removed place sink 165
+Removed place source 164
+Removed transition tau from tree
+Removed place sink 184
+Removed transition tau from tree
+Removed place source 141
+Removed transition tau from tree
+Removed place source 181
+Removed place source 91
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 138
+Removed place sink 84
+Removed place source 156
+Removed place sink 96
+Removed place source 125
+Removed place sink 182
+Removed place source 129
+Removed place sink 157
+Removed place source 166
+Removed place sink 102
+Removed place source 107
+Removed transition tau join
+Removed place sink 120
+Removed transition tau from tree
+Removed place source 147
+Removed place source 103
+Removed transition tau from tree
+Removed place sink 148
+Removed place source 179
+Removed transition tau from tree
+Removed place source 172
+Removed transition tau from tree
+Removed place sink 130
+Removed place sink 114
+Removed transition tau from tree
+Removed place source 95
+Removed transition tau from tree
+Removed place sink 82
+Removed transition tau from tree
+Removed place sink 189
+Removed place sink 132
+Removed place sink 173
+Removed place sink 88
+Removed place source 101
+Removed place sink 136
+Removed place source 131
+Removed place sink 110
+Removed transition tau from tree
+Removed transition tau join
+Removed place source 135
+Removed place sink 146
+Removed place sink 122
+Removed place source 151
+Removed place sink 180
+Removed place source 149
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place source 127
+Removed place source 145
+Removed place source 143
+Removed place sink 144
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 169
+Removed transition tau from tree
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place sink 177
+Removed place source 81
+Removed place source 170
+Removed place sink 161
+Removed place sink 142
+Removed place sink 171
+Removed place sink 187
+Removed place source 87
+Removed transition tau from tree
+Removed transition tau from tree
+Removed place source 168
+Removed transition tau from tree
+Removed place source 109
+Removed place sink 118
+Removed place source 160
+Removed transition tau from tree
+Metric = 6108.0

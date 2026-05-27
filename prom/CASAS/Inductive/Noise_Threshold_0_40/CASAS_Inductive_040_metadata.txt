@@ -1,0 +1,14 @@
+run_id: PROM-CASAS-IM-nt040
+artifact_type: prom
+dataset: CASAS
+stage: discovery_conformance
+algorithm: Inductive Miner
+configuration: noise_threshold=0.40
+tool: ProM
+run_date: 2026-04-07
+input_log_reference: supporting_documents/inputs/casas/shib010.xes
+model_file: supporting_documents/prom/CASAS/Inductive/Noise_Threshold_0_40/CASAS_Inductive_040_petrinet.pnml
+conformance_export: supporting_documents/prom/CASAS/Inductive/Noise_Threshold_0_40/CASAS_Inductive_040_conformance.txt
+structural_metrics: supporting_documents/prom/CASAS/Inductive/Noise_Threshold_0_40/CASAS_Inductive_040_structural_metrics.txt
+model_visualization: supporting_documents/prom/CASAS/Inductive/Noise_Threshold_0_40/CASAS_Inductive_040_view.svg
+notes: Inductive Miner run with noise threshold 0.40 on shared CASAS thesis input.

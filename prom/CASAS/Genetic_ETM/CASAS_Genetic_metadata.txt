@@ -1,0 +1,14 @@
+run_id: PROM-CASAS-ETM-p10e3g50
+artifact_type: prom
+dataset: CASAS
+stage: discovery_conformance
+algorithm: Genetic Miner (ETM)
+configuration: population_size=10, elite_count=3, generations=50
+tool: ProM
+run_date: 2026-04-09
+input_log_reference: supporting_documents/inputs/casas/shib010.xes
+model_file: supporting_documents/prom/CASAS/Genetic_ETM/CASAS_Genetic_petrinet.pnml
+conformance_export: supporting_documents/prom/CASAS/Genetic_ETM/CASAS_Genetic_conformance.txt
+structural_metrics: supporting_documents/prom/CASAS/Genetic_ETM/CASAS_Genetic_structural_metrics.txt
+model_visualization: supporting_documents/prom/CASAS/Genetic_ETM/REFIT_Genetic_view.svg
+notes: Genetic Miner run on the CASAS PM-prepared log with population size 10, elite count 3, and 50 generations. The visualization file is retained under the existing folder name.

@@ -1,0 +1,34 @@
+Metrics for net Petri net (Alpha)
+Density metric
+0.2
+Details
+|F| = 8
+|P X T| = 20
+Extended Cardoso metric
+4.0
+Details
+Place ([Bedroom_Air temperature],[Kitchen_Air temperature]) = 1
+Place ([Bathroom_Air temperature],[Bedroom_Air temperature]) = 1
+Place Start = 2
+Place End = 0
+Metric = 4
+Extended Cyclomatic metric
+-1.0
+Details
+Reachability graph is unbounded
+Number of arcs
+8.0
+Details
+
+Number of places
+4.0
+Details
+
+Number of transitions
+5.0
+Details
+
+Structuredness metric
+-1.0
+Details
+Net is not a workflow net.

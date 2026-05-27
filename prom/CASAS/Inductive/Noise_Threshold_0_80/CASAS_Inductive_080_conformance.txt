@@ -1,0 +1,37 @@
+Stats form reliable alignments
+
+#Cases replayed	225
+#Synchronous ev.class (log+model)	277
+#Skipped ev.class	106
+#Unobservable ev.class	2 034
+#Inserted ev.class	639
+#Violating synchronous ev.class	0
+Approximate memory used (kb)	1745.4477611940297
+Calculation Time (ms)	614.511962686567
+Exit code of alignment for trace	11.42910447761194
+Model move cost empty trace	0.0
+Move-Log Fitness	0.3620492155824233
+Move-Model Fitness	0.8803753667559635
+Num. States	33130.899253731346
+Number of LPs solved	4.511194029850746
+Pre-processing time (ms)	0.08111567164179105
+Queued States	39846.59701492539
+Raw Fitness Cost	5.10820895522388
+Title of Visualization	Alignments of Anonymous log imported from shib010.xes on 4810fff8-5da8-4a2e-8a0d-df6e538af2f9
+Trace Fitness	0.2840776028724145
+Trace Length	13.727611940298509
+
+Alignment statistics
+Average/case	3,31
+Max.	75
+Min.	0
+Std. Deviation	5,85
+#Cases with value 1.00	65
+
+Stats including unreliable alignments
+#Cases replayed	268
+#Synchronous ev.class (log+model)	386
+#Skipped ev.class	172
+#Unobservable ev.class	3 226
+#Inserted ev.class	1 197
+#Violating synchronous ev.class	0

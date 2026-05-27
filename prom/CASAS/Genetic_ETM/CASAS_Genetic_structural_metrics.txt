@@ -1,0 +1,250 @@
+Metrics for net Process tree discovered by the ETM algorithm
+Density metric
+0.04516129032258064
+Details
+|F| = 112
+|P X T| = 1240
+Extended Cardoso metric
+46.0
+Details
+Place source 1 = 1
+Place sink 2 = 0
+Place sink 3 = 1
+Place sink 4 = 1
+Place sink 5 = 1
+Place sink 6 = 1
+Place sink 7 = 1
+Place notDoneFirst 8 = 2
+Place doneFirst 9 = 5
+Place childSource 10 = 2
+Place childSink 11 = 1
+Place doChild 12 = 1
+Place childSource 13 = 2
+Place childSink 14 = 1
+Place doChild 15 = 1
+Place sink 16 = 2
+Place notDoneFirst 17 = 2
+Place doneFirst 18 = 5
+Place childSource 19 = 2
+Place childSink 20 = 1
+Place doChild 21 = 1
+Place childSource 22 = 2
+Place childSink 23 = 1
+Place doChild 24 = 1
+Place sink 25 = 1
+Place middle 26 = 2
+Place replacement source 27 = 1
+Place sink 28 = 1
+Place sink 29 = 1
+Place sink 30 = 1
+Place sink 31 = 1
+Metric = 46
+Extended Cyclomatic metric
+55.0
+Details
+|E| = 56
+|V| = 33
+p = 32
+Number of arcs
+112.0
+Details
+
+Number of places
+31.0
+Details
+
+Number of transitions
+40.0
+Details
+
+Structuredness metric
+32130.0
+Details
+SEQUENCE sink 5
+Removed place sink 5
+Added arc from Living_Room_A_Area_Light_DIM to sink 6
+Removed transition Living_Room_A_Chair_Light_DIM
+Sum = 2.0
+Metric = 2.0
+SEQUENCE sink 6
+Removed place sink 6
+Added arc from Living_Room_A_Area_Light_DIM to notDoneFirst 8
+Added arc from Living_Room_A_Area_Light_DIM to childSource 10
+Added arc from Living_Room_A_Area_Light_DIM to childSource 13
+Removed transition tau start
+Sum = 3.0
+Metric = 3.0
+SEQUENCE sink 7
+Removed place sink 7
+Added arc from tau finish to notDoneFirst 17
+Added arc from tau finish to childSource 19
+Added arc from tau finish to childSource 22
+Removed transition tau start
+Sum = 2.0
+Metric = 2.0
+SEQUENCE sink 29
+Removed place sink 29
+Added arc from Living_Room_A_Chair_Light_DARK to sink 30
+Removed transition Living_Room_A_Area_Light_DIM
+Sum = 2.0
+Metric = 2.0
+SEQUENCE sink 30
+Removed place sink 30
+Added arc from Living_Room_A_Chair_Light_DARK to sink 31
+Removed transition Living_Room_A_Area_Light_MEDIUM
+Sum = 3.0
+Metric = 3.0
+CHOICE Living_Room_A_Area_Light_DIM
+Removed transition Motion_BedroomADoor
+Sum = 2.0
+Metric = 3.0
+CHOICE Living_Room_A_Chair_Light_DARK
+Removed transition Motion_LivingRoomAChair
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 3
+Removed place sink 3
+Added arc from Living_Room_A_Area_Light_DIM to sink 4
+Removed transition Living_Room_A_Chair_Light_DARK
+Sum = 6.0
+Metric = 6.0
+SEQUENCE sink 4
+Removed place sink 4
+Added arc from Living_Room_A_Area_Light_DIM to notDoneFirst 8
+Added arc from Living_Room_A_Area_Light_DIM to childSource 10
+Added arc from Living_Room_A_Area_Light_DIM to childSource 13
+Removed transition Living_Room_A_Area_Light_DIM
+Sum = 9.0
+Metric = 9.0
+CHOICE Motion_BathroomAToilet
+Removed transition Motion_BedroomABed
+Removed transition Motion_BedroomAArea
+Sum = 3.0
+Metric = 4.5
+CHOICE Motion_BathroomAToilet
+Removed transition Kitchen_A_Sink_Light_DARK
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 28
+Removed place sink 28
+Added arc from Motion_BathroomAToilet to sink 31
+Removed transition Living_Room_A_Chair_Light_DARK
+Sum = 6.0
+Metric = 6.0
+CHOICE Living_Room_A_Area_Light_DIM
+Removed transition Living_Room_A_Area_Light_BRIGHT
+Sum = 2.0
+Metric = 3.0
+SEQUENCE sink 31
+Removed place sink 31
+Added arc from Motion_BathroomAToilet to sink 2
+Removed transition Living_Room_A_Area_Light_DIM
+Sum = 9.0
+Metric = 9.0
+STATE MACHINE sink 16 -> sink 2
+Sum = 35.0
+DiffP = 1
+Added arc from Main_Door to sink 2
+Removed transition Motion_BathroomAToilet
+Removed place replacement source 27
+Removed transition Motion_BathroomAToilet
+Removed place sink 25
+Removed transition tau from tree
+Removed place middle 26
+Removed transition tau from tree
+Removed transition tau start
+Metric = 35.0
+SEQUENCE sink 16
+Removed place sink 16
+Added arc from tau finish to sink 2
+Removed transition Main_Door
+Sum = 36.0
+Metric = 36.0
+UNSTRUCTURED source 1 -> sink 2
+In transition tau finish
+In place childSink 11
+Out transition tau laterDoChild
+In transition tau laterDoChild
+In place doChild 21
+Out place notDoneFirst 8
+Out transition tau skipChild
+In transition tau skipChild
+Out transition tau skipChild
+In transition tau skipChild
+In place childSink 20
+Out transition tau finish
+In transition tau finish
+Out transition tau skipChild
+In transition tau skipChild
+Out place childSource 19
+Out place notDoneFirst 17
+In place doChild 24
+Out transition tau laterDoChild
+In transition tau laterDoChild
+Out transition Living_Room_A_Area_Light_DIM
+In place doChild 12
+Out transition tau firstDoChild
+In transition tau firstDoChild
+Out transition tau laterDoChild
+In transition tau laterDoChild
+Out place doneFirst 9
+In place doneFirst 9
+Out place childSource 13
+In place doChild 15
+Out transition tau laterDoChild
+In transition tau laterDoChild
+Out place doneFirst 18
+In place doneFirst 18
+In place childSink 23
+Out transition tau skipChild
+In transition tau skipChild
+Out place childSource 22
+In place childSink 14
+Out transition tau firstDoChild
+In transition tau firstDoChild
+Out transition tau firstDoChild
+In transition tau firstDoChild
+Out place childSource 10
+Out transition tau firstDoChild
+In transition tau firstDoChild
+|F| = 70
+|P U T| = 37
+Sum = 10710.0
+DiffP = 3
+DiffT = 1
+Added arc from Living_Room_A_Area_Light_DIM to sink 2
+Removed transition tau finish
+Removed transition Living_Room_A_Chair_Light_MEDIUM
+Removed place childSink 11
+Removed transition tau laterDoChild
+Removed place doChild 21
+Removed place notDoneFirst 8
+Removed transition tau skipChild
+Removed transition Living_Room_A_Chair_Light_BRIGHT
+Removed transition tau skipChild
+Removed place childSink 20
+Removed transition tau finish
+Removed transition tau skipChild
+Removed place childSource 19
+Removed place notDoneFirst 17
+Removed transition Living_Room_A_Area_Light_MEDIUM
+Removed place doChild 24
+Removed transition tau laterDoChild
+Removed place doChild 12
+Removed transition Living_Room_A_Area_Light_BRIGHT
+Removed transition tau firstDoChild
+Removed transition tau laterDoChild
+Removed place doneFirst 9
+Removed place childSource 13
+Removed place doChild 15
+Removed transition tau laterDoChild
+Removed place doneFirst 18
+Removed place childSink 23
+Removed transition tau skipChild
+Removed place childSource 22
+Removed place childSink 14
+Removed transition tau firstDoChild
+Removed transition tau firstDoChild
+Removed place childSource 10
+Removed transition tau firstDoChild
+Metric = 32130.0

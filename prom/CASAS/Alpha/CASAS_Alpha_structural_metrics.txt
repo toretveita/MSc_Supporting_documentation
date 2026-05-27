@@ -1,0 +1,85 @@
+Metrics for net Petri net (Alpha)
+Density metric
+0.03881673881673882
+Details
+|F| = 269
+|P X T| = 3465
+Extended Cardoso metric
+109.0
+Details
+Place ([Motion_OfficeAChair],[Office_A_Chair_Light_DIM]) = 1
+Place ([Motion_KitchenASink],[Kitchen_A_Sink_Light_DARK]) = 1
+Place ([Bedroom_A_Bed_Light_DARK],[Bathroom_A_Area_Light_DIM]) = 1
+Place ([Kitchen_A_Sink_Light_DIM],[Kitchen_A_Dining_Chair_Light_DIM, Living_Room_A_Area_Light_MEDIUM]) = 2
+Place ([Living_Room_A_Area_Light_MEDIUM],[Kitchen_A_Dining_Chair_Light_DARK, Office_A_Area_Light_DIM]) = 2
+Place ([Kitchen_A_Dining_Chair_Light_DIM, Temperature_RelayB],[Living_Room_A_Chair_Light_MEDIUM]) = 1
+Place ([Kitchen_A_Temperature, Living_Room_A_Chair_Light_DIM],[Temperature_RelayB]) = 1
+Place ([Kitchen_A_Area_Light_DARK],[Bathroom_A_Sink_Light_DIM, Living_Room_A_Area_Light_BRIGHT]) = 2
+Place ([Temperature_RelayA],[Motion_KitchenASink, Living_Room_A_Area_Light_DARK]) = 2
+Place ([Kitchen_A_Dining_Chair_Light_DARK],[Living_Room_A_Area_Light_BRIGHT, Motion_BathroomAArea]) = 2
+Place ([Living_Room_A_Chair_Light_MEDIUM],[Kitchen_A_Area_Light_DARK, Bathroom_A_Sink_Light_DARK]) = 2
+Place ([Temperature_RelayB],[Living_Room_A_Area_Light_MEDIUM, Bathroom_A_Temperature]) = 2
+Place ([Kitchen_A_Area_Light_DARK],[Bathroom_A_Sink_Light_DIM, Living_Room_A_Chair_Light_BRIGHT]) = 2
+Place ([Kitchen_A_Sink_Light_DIM, Temperature_RelayB],[Living_Room_A_Area_Light_MEDIUM]) = 1
+Place ([Main_Entryway_Light_DIM, Office_A_Area_Light_DARK],[Bathroom_A_Sink_Light_DIM]) = 1
+Place ([Kitchen_A_Temperature],[Temperature_RelayB, Bathroom_A_Area_Light_BRIGHT]) = 2
+Place ([Living_Room_A_Area_Light_DIM],[Bathroom_A_Sink_Light_DIM, Living_Room_A_Area_Light_DARK]) = 2
+Place ([Office_A_Area_Light_DIM],[Office_A_Area_Light_DARK, Bathroom_A_Temperature]) = 2
+Place ([Bathroom_B_Area_Light_DARK],[Bathroom_B_Toilet_Light_DARK]) = 1
+Place ([Kitchen_A_Area_Light_DIM, Temperature_RelayA],[Motion_KitchenASink]) = 1
+Place ([Bathroom_A_Sink_Light_DIM, Kitchen_A_Sink_Light_DARK],[Office_A_Area_Light_DIM]) = 1
+Place ([Bathroom_A_Sink_Light_DIM, Living_Room_A_Area_Light_MEDIUM],[Office_A_Area_Light_DIM]) = 1
+Place ([Kitchen_A_Area_Light_DIM, Office_A_Area_Light_DIM],[Office_A_Area_Light_DARK]) = 1
+Place ([Kitchen_A_Sink_Light_DARK, Kitchen_A_Dining_Chair_Light_DIM],[Kitchen_A_Area_Light_DIM]) = 1
+Place ([Kitchen_A_Area_Light_DARK],[Living_Room_A_Chair_Light_BRIGHT, Bathroom_A_Area_Light_BRIGHT]) = 2
+Place ([Kitchen_A_Dining_Chair_Light_DARK],[Living_Room_A_Chair_Light_BRIGHT, Bathroom_B_Temperature, Motion_BathroomAArea]) = 3
+Place ([Temperature_RelayB],[Living_Room_A_Area_Light_DIM, Living_Room_A_Chair_Light_MEDIUM, Bathroom_A_Temperature]) = 3
+Place ([Bathroom_A_Sink_Light_DIM],[Office_A_Area_Light_DIM, Bathroom_A_Area_Light_BRIGHT]) = 2
+Place ([Office_A_Area_Light_DIM, Living_Room_A_Chair_Light_BRIGHT, Temperature_RelayB],[Bathroom_A_Temperature]) = 1
+Place ([Kitchen_A_Dining_Chair_Light_DIM],[Kitchen_A_Area_Light_DIM, Kitchen_A_Dining_Chair_Light_DARK]) = 2
+Place ([Bathroom_A_Sink_Light_DARK, Motion_BathroomAArea],[Bathroom_A_Area_Light_DARK]) = 1
+Place ([Bathroom_A_Sink_Light_DARK],[Bathroom_A_Area_Light_DARK, Office_A_Area_Light_DARK]) = 2
+Place ([Bathroom_A_Sink_Light_DARK, Kitchen_A_Area_Light_DIM],[Office_A_Area_Light_DARK]) = 1
+Place ([Bathroom_A_Area_Light_DARK, Temperature_RelayB, Living_Room_A_Chair_Light_DARK],[Living_Room_A_Area_Light_DIM]) = 1
+Place ([Kitchen_A_Sink_Light_DARK],[Living_Room_A_Chair_Light_DIM, Kitchen_A_Area_Light_DIM, Office_A_Area_Light_DIM]) = 3
+Place ([Kitchen_A_Area_Light_DARK, Living_Room_A_Area_Light_DIM, Main_Entryway_Light_DIM],[Bathroom_A_Sink_Light_DIM]) = 1
+Place ([Kitchen_A_Area_Light_DIM],[Motion_KitchenASink, Bathroom_B_Temperature, Office_A_Area_Light_DARK]) = 3
+Place ([Kitchen_A_Sink_Light_DIM],[Kitchen_A_Area_Light_DARK, Kitchen_A_Dining_Chair_Light_DIM]) = 2
+Place ([Kitchen_A_Sink_Light_DIM, Bathroom_A_Temperature],[Kitchen_A_Dining_Chair_Light_DARK]) = 1
+Place ([Kitchen_A_Area_Light_DARK, Bathroom_B_Temperature],[Living_Room_A_Area_Light_BRIGHT, Bathroom_A_Area_Light_BRIGHT]) = 2
+Place ([Bathroom_B_Toilet_Light_DIM, Bathroom_B_Temperature, Living_Room_A_Chair_Light_MEDIUM],[Bathroom_A_Sink_Light_DARK]) = 1
+Place ([Bathroom_A_Area_Light_DARK, Kitchen_A_Area_Light_DIM, Kitchen_A_Dining_Chair_Light_DARK],[Bathroom_B_Temperature]) = 1
+Place ([Kitchen_A_Dining_Chair_Light_DIM, Living_Room_A_Area_Light_MEDIUM, Bathroom_A_Temperature],[Kitchen_A_Dining_Chair_Light_DARK]) = 1
+Place ([Living_Room_A_Area_Light_DIM, Bathroom_B_Temperature, Temperature_RelayA],[Living_Room_A_Area_Light_DARK]) = 1
+Place ([Kitchen_A_Temperature, Kitchen_A_Area_Light_DARK, Office_A_Chair_Light_DIM, Bathroom_B_Toilet_Light_DARK, Bathroom_B_Temperature],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place ([Bathroom_B_Temperature],[Bathroom_A_Sink_Light_DARK, Living_Room_A_Area_Light_BRIGHT, Living_Room_A_Area_Light_DARK, Bathroom_A_Area_Light_BRIGHT]) = 3
+Place ([Bathroom_A_Area_Light_DARK],[Kitchen_A_Temperature, Living_Room_A_Area_Light_DIM, Bathroom_B_Temperature, Bathroom_B_Area_Light_DARK]) = 4
+Place ([Kitchen_A_Temperature, Bathroom_A_Sink_Light_DIM, Office_A_Chair_Light_DIM, Bathroom_B_Temperature, Bathroom_B_Area_Light_DARK],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place ([Kitchen_A_Temperature, Office_A_Chair_Light_DIM, Bathroom_B_Toilet_Light_DARK, Bathroom_B_Temperature, Office_A_Area_Light_DARK],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place ([Bathroom_B_Temperature],[Bathroom_A_Sink_Light_DARK, Kitchen_A_Sink_Light_DIM, Living_Room_A_Area_Light_DARK, Bathroom_A_Area_Light_BRIGHT]) = 4
+Place ([Kitchen_A_Temperature, Bathroom_A_Sink_Light_DIM, Office_A_Chair_Light_DIM, Bathroom_B_Toilet_Light_DARK, Bathroom_B_Temperature],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place ([Kitchen_A_Temperature, Office_A_Chair_Light_DIM, Bathroom_B_Temperature, Office_A_Area_Light_DARK, Bathroom_B_Area_Light_DARK],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place ([Kitchen_A_Temperature, Kitchen_A_Area_Light_DARK, Office_A_Chair_Light_DIM, Bathroom_B_Temperature, Bathroom_B_Area_Light_DARK],[Bathroom_A_Area_Light_BRIGHT]) = 1
+Place Start = 23
+Place End = 0
+Metric = 109
+Extended Cyclomatic metric
+-1.0
+Details
+Reachability graph is unbounded
+Number of arcs
+269.0
+Details
+
+Number of places
+55.0
+Details
+
+Number of transitions
+63.0
+Details
+
+Structuredness metric
+-1.0
+Details
+Net is not a workflow net.

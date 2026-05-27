@@ -1,0 +1,29 @@
+Stats from Reliable Alignments
+
+#Cases replayed	0
+#Synchronous ev.class (log+model)	0
+#Skipped ev.class	0
+#Unobservable ev.class	0
+#Inserted ev.class	0
+#Violating synchronous ev.class	0
+Calculation Time (ms)	2.7187499999999996
+Move-Log Fitness	1.0
+Move-Model Fitness	1.0
+Num. States	1.0
+Raw Fitness Cost	0.0
+Trace Fitness	1.0
+
+Alignment Statistics
+Average/case	<NaN>
+Max.	<NaN>
+Min.	<NaN>
+Std. Deviation	0
+#Cases with value 1.00	0
+
+Stats Including Unreliable Alignments
+#Cases replayed	32
+#Synchronous ev.class (log+model)	0
+#Skipped ev.class	0
+#Unobservable ev.class	0
+#Inserted ev.class	0
+#Violating synchronous ev.class	0

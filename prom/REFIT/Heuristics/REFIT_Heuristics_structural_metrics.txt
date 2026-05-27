@@ -1,0 +1,42 @@
+Metrics for net Petrinet
+Density metric
+0.1
+Details
+|F| = 22
+|P X T| = 110
+Extended Cardoso metric
+11.0
+Details
+Place pi0 = 1
+Place po0 = 1
+Place pi1 = 1
+Place po1 = 1
+Place pi2 = 1
+Place po2 = 1
+Place pi3 = 1
+Place po3 = 3
+Place pi4 = 1
+Place po4 = 0
+Metric = 11
+Extended Cyclomatic metric
+0.0
+Details
+|E| = 0
+|V| = 1
+p = 1
+Number of arcs
+22.0
+Details
+
+Number of places
+10.0
+Details
+
+Number of transitions
+11.0
+Details
+
+Structuredness metric
+-1.0
+Details
+Net is not a workflow net.
