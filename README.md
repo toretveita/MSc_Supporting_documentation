@@ -1,6 +1,12 @@
 ## Supporting documentation repository for "Business process mining in smart homes"
 
-This repository contains the artifacts listed in Appendix A of in the thesis "Business process mining in smart homes". The repository is organized into three main folders, "ML" containing machine-learning scripts and results, "inputs" containing input files (Raw and filtered for the two datasets used, CASAS and REFIT), and "prom" containing the results from proM tasks (discovery, conformance and hold-out). The following instructions are for running the scripts after cloning the repository. 
+This repository contains the artifacts listed in Appendix A of in the thesis "Business process mining in smart homes". The repository is organized into three main folders:
+
+- ML: containing machine-learning scripts and results
+- inputs: containing input files (Raw and filtered for the two datasets used, CASAS and REFIT)
+- prom: containing the results from proM tasks (discovery, conformance and hold-out). 
+
+The following instructions are for running the scripts after cloning the repository. 
 
 
 ## Running the ML scripts
