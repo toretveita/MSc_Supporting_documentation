@@ -9,6 +9,7 @@ design choices to next-event prediction accuracy.
 
 import json
 import math
+import argparse
 from pathlib import Path
 import sys
 from typing import Any, Dict, List
@@ -485,21 +486,60 @@ class ArchitecturalAblationCASAS:
 def main() -> None:
     """Main execution entrypoint."""
 
-    project_root = BASE_DIR.parents[3]
+    def find_repo_root(start_dir: Path) -> Path:
+        """Walk upwards to find the repository root (contains README.md, inputs/, ML/)."""
+        for candidate in [start_dir] + list(start_dir.parents):
+            if (
+                (candidate / "README.md").exists()
+                and (candidate / "inputs").exists()
+                and (candidate / "ML").exists()
+            ):
+                return candidate
+        return start_dir.parent
+
+    repo_root = find_repo_root(BASE_DIR)
+    default_prepared = repo_root / "inputs" / "casas" / "shib010.xes"
+
+    parser = argparse.ArgumentParser(description="CASAS architectural ablation study (PM-prepared log)")
+    parser.add_argument(
+        "--prepared-xes-path",
+        default=str(default_prepared),
+        help="Path to PM-prepared CASAS .xes log (default: repo inputs/casas/shib010.xes)",
+    )
+    parser.add_argument("--sequence-length", type=int, default=10)
+    parser.add_argument("--n-folds", type=int, default=5)
+    parser.add_argument("--random-state", type=int, default=42)
+    parser.add_argument("--use-checkpoints", action=argparse.BooleanOptionalAction, default=True)
+    parser.add_argument("--force-retrain", action=argparse.BooleanOptionalAction, default=False)
+    parser.add_argument("--output-directory", default="results", help="Output directory (default: ML/results)")
+    parser.add_argument("--output-filename", default="CASAS_ML_architectural_ablation_results.json")
+    parser.add_argument("--max-traces", type=int, default=None, help="Optional cap on number of traces parsed")
+    parser.add_argument("--gnn-epochs", type=int, default=50)
+    parser.add_argument("--lstm-epochs", type=int, default=30)
+    args = parser.parse_args()
+
+    prepared_path = Path(args.prepared_xes_path)
+    if not prepared_path.exists():
+        raise FileNotFoundError(
+            f"Prepared XES file not found: {prepared_path}. "
+            f"If you cloned the repo, try: {default_prepared} or pass --prepared-xes-path"
+        )
 
     comparison = ArchitecturalAblationCASAS(
-        prepared_xes_path=str(project_root / "Datasets" / "CASAS" / "shib010.xes"),
-        sequence_length=10,
-        n_folds=5,
-        random_state=42,
-        use_checkpoints=True,
-        force_retrain=False,
+        prepared_xes_path=str(prepared_path),
+        sequence_length=args.sequence_length,
+        n_folds=args.n_folds,
+        random_state=args.random_state,
+        use_checkpoints=args.use_checkpoints,
+        force_retrain=args.force_retrain,
+        output_filename=args.output_filename,
+        output_directory=args.output_directory,
     )
 
     comparison.run(
-        max_traces=None,
-        gnn_epochs=50,
-        lstm_epochs=30,
+        max_traces=args.max_traces,
+        gnn_epochs=args.gnn_epochs,
+        lstm_epochs=args.lstm_epochs,
     )
 
 

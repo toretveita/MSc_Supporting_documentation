@@ -10,6 +10,7 @@ Gradient Boosting
 
 import json
 import math
+import argparse
 from pathlib import Path
 import sys
 from typing import Any, Dict, List
@@ -376,21 +377,59 @@ class RigorousComparisonREFIT:
 def main() -> None:
     """Main execution entrypoint."""
 
-    project_root = BASE_DIR.parents[3]
+    def find_repo_root(start_dir: Path) -> Path:
+        """Walk upwards to find the repository root (contains README.md, inputs/, ML/)."""
+        for candidate in [start_dir] + list(start_dir.parents):
+            if (
+                (candidate / "README.md").exists()
+                and (candidate / "inputs").exists()
+                and (candidate / "ML").exists()
+            ):
+                return candidate
+        return start_dir.parent
+
+    repo_root = find_repo_root(BASE_DIR)
+    default_xes = repo_root / "inputs" / "refit" / "refit_building02.xes"
+
+    parser = argparse.ArgumentParser(description="REFIT next-event prediction: model-family comparison")
+    parser.add_argument(
+        "--xes-path",
+        default=str(default_xes),
+        help="Path to REFIT .xes log (default: repo inputs/refit/refit_building02.xes)",
+    )
+    parser.add_argument("--sequence-length", type=int, default=5)
+    parser.add_argument("--n-folds", type=int, default=5)
+    parser.add_argument("--random-state", type=int, default=42)
+    parser.add_argument("--use-checkpoints", action=argparse.BooleanOptionalAction, default=True)
+    parser.add_argument("--force-retrain", action=argparse.BooleanOptionalAction, default=False)
+    parser.add_argument("--output-directory", default="results", help="Output directory (default: ML/results)")
+    parser.add_argument("--output-filename", default="REFIT_ML_results.json")
+    parser.add_argument("--max-traces", type=int, default=None, help="Optional cap on number of traces parsed")
+    parser.add_argument("--gnn-epochs", type=int, default=30)
+    parser.add_argument("--lstm-epochs", type=int, default=30)
+    args = parser.parse_args()
+
+    if not Path(args.xes_path).exists():
+        raise FileNotFoundError(
+            f"XES file not found: {args.xes_path}. "
+            f"If you cloned the repo, try: {default_xes} or pass --xes-path"
+        )
 
     comparison = RigorousComparisonREFIT(
-        xes_path=str(project_root / "Datasets" / "Refit" / "refit_building02.xes"),
-        sequence_length=5,
-        n_folds=5,
-        random_state=42,
-        use_checkpoints=True,
-        force_retrain=False,
+        xes_path=args.xes_path,
+        sequence_length=args.sequence_length,
+        n_folds=args.n_folds,
+        random_state=args.random_state,
+        use_checkpoints=args.use_checkpoints,
+        force_retrain=args.force_retrain,
+        output_filename=args.output_filename,
+        output_directory=args.output_directory,
     )
 
     comparison.run(
-        max_traces=None,
-        gnn_epochs=30,
-        lstm_epochs=30,
+        max_traces=args.max_traces,
+        gnn_epochs=args.gnn_epochs,
+        lstm_epochs=args.lstm_epochs,
     )
 
 
